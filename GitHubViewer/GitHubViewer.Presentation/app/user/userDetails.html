@@ -1,0 +1,11 @@
+﻿<section ng-controller="userDetailsController as vm">
+    <input id="userName" ng-model="userName" />
+    <input type="button"
+           id="getUserDetails"
+           ng-click="getUserDetails()" value="Search" />
+    <br />
+    <br />
+    User name: {{userName}}
+    <br />
+    Login: {{userDetails.login}}
+</section>
